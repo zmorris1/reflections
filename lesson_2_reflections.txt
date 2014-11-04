@@ -1,0 +1,8 @@
+**What happens when you initialize a repository? Why do you need to do it?
+
+You need to create your first commit.
+
+**How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is where the repository lives.  The staging area is somewhat of a test zone, where you can view what you're about to commit to the repository before you commit it.
+
