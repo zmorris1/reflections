@@ -1,0 +1,29 @@
+**How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff returned all the lines of code that were different between the two files.  This way, I could narrow my search for the bug down to only lines of code which had been changed, as opposed to scanning line by line through the entire file.
+
+**How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can see who made changes to the code and when, so you can consult them about what they did instead of trying to figure it out yourself.  You can also run old versions of the code to see how it behaves differently from your current code, and then use diff to pinpoint the differences.
+
+**What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: you can save at logical points.  You won't have too many versions, making your history cluttered and difficult to read.
+Cons: you can forget to save and have two very different files by the time you do, or worse, lose a lot of work
+
+**Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some types of projects, like many coding projects, have files that interact with eachoter.  The output of one file will be the input to another.  This makes saving multiple files in one commit useful and helpful.  Other types of projects, like taking notes on google docs, typically have all relevant information contained within that one file.
+
+**How can you use the commands git log and git diff to view the history of files?
+
+git log = gives me a history of all commits, with author, date, message explaining what changed and a unique identifier.  I can use git diff on any two of these identifiers to view the changes from one file to the other.
+
+**How might using version control make you more confident to make changes that could break something?
+
+I'll know that if I break something, I have a previous, working version of my code saved and I can compare versions to identify the differences, i.e. see what I might have done to break it.
+
+**Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to build sfunday.com
+
