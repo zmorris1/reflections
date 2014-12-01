@@ -6,3 +6,23 @@ You need to create your first commit.
 
 The working directory is where the repository lives.  The staging area is somewhat of a test zone, where you can view what you're about to commit to the repository before you commit it.
 
+**How can you use the staging area to make sure you have one commit per logical change?
+
+You can run git diff to compare your working directory to the staging area.  The staging area contains a copy of your most recent commit until you add changes to it.  Then, once you add changes, you can run git diff --staged to compare the staging area (with the changes you've added) to the most recent commit in the repository.
+
+**What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you are experimenting with creating a new feature, but don't to mess up your curent, functioning code.  You can create a new branch to work on, and merge it to master when it's functioning.
+
+**How do the diagrams help you visualize the branch structure?
+
+By showing each commits parent, and showing what each commit points to, or was added to.  It also helps you understand which commits are unreachable.
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is combining the two branches into one branch which contains all the code it is supposed to contain.  It's represented in the diagram the way it is to illustrate the concepts of unreachable branches, and how we need to know what we started with in order to know what should be kept in the final, merged branch.
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of automatic merging are that when there are no conflicts between the two commits you are trying to merge it merges them seamlessly.  However, when there are conflicts you are forced to identify them and resolve them.  
+
