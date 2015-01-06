@@ -14,4 +14,6 @@ A clone is when you copy a repository from Git onto your local computer.  A fork
 
 You can run a diff to see what changes have been made by others to the remote and choose whether or not to merge them to your local master branch.  So you always have the option of working on your own branch, or an up-to-date branch with the commits of others you're collaborating with.
 
-  
+**How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could work side by side, with someone writing the code and someone reviewing it over their shoulder.  It would be easier to see the changes someone else made, by necessity.  But it would harder/impossible to collaborate remotely.  
