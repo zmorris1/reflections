@@ -16,4 +16,10 @@ You can run a diff to see what changes have been made by others to the remote an
 
 **How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-You could work side by side, with someone writing the code and someone reviewing it over their shoulder.  It would be easier to see the changes someone else made, by necessity.  But it would harder/impossible to collaborate remotely.  
+You could work side by side, with someone writing the code and someone reviewing it over their shoulder.  It would be easier to see the changes someone else made, by necessity.  But it would harder/impossible to collaborate remotely.
+
+**When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You should make changes in seperate branch when you want to submit a pull request for someone to review your changes.  Then, once they have reviewed your changes, you can pull origin into master on your local repository.
+
+  
